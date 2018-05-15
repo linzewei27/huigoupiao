@@ -1,0 +1,28 @@
+
+.small-logo{
+    width: 150px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.simple-info{
+    width: 100%;
+    height: 376px;
+    background: url(/huigoupiao/Public/Theater/movieDetail-bg.png);
+    background-size:100% 100%;
+    position: relative;
+}
+.haibao{
+    position: absolute;
+    bottom: -35px;
+    left: 15%;
+    border: 4px solid #ddd;
+}
+.haibao img{
+    width: 250px;
+}
+.main-info{
+    color: #ddd;
+    position: absolute;
+    bottom: 30px;
+    left: 36%;
+}

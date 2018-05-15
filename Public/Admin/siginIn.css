@@ -1,0 +1,25 @@
+.form-control{
+    width: 300px;
+    display: inline-block;
+}
+.input-box{
+    clear: both;
+    margin: 10px;
+    position: relative;
+}
+.input-box label{
+    line-height: 34px;
+    margin-bottom: 0;
+    width: 60px;
+}
+.form-signin{
+    max-width: 610px;
+    margin-left: 30%;
+}
+.import{
+    color: red;
+}
+.btn-block {
+    display: block;
+    width: 300px;
+}

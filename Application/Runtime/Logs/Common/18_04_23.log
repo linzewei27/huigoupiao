@@ -1,0 +1,24 @@
+[ 2018-04-23T11:48:31+08:00 ] 127.0.0.1 /huigoupiao/Public/Theater/banner_bg.f7fd103e3b8c16b6f449cce43fc57f45.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-23T22:20:34+08:00 ] 127.0.0.1 /huigoupiao/Public/Theater/banner_bg.f7fd103e3b8c16b6f449cce43fc57f45.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-23T22:23:21+08:00 ] 127.0.0.1 /huigoupiao/Public/Theater/banner_bg.f7fd103e3b8c16b6f449cce43fc57f45.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-23T23:54:13+08:00 ] 127.0.0.1 /huigoupiao/Public/Theater/banner_bg.f7fd103e3b8c16b6f449cce43fc57f45.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Public
+

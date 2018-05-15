@@ -1,0 +1,14 @@
+body.login-page{
+    background: url(./login_bg.jpg) center;
+    padding: 40px 0;
+    color: #aaa;
+}
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}

@@ -1,0 +1,118 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>详情</title>
+    <link rel="stylesheet" href="/huigoupiao/Public/bootstrap-3.3.7/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/huigoupiao/Public/common.css">
+    <link rel="stylesheet" href="/huigoupiao/Public//Theater/index.css">
+    <link rel="stylesheet" href="/huigoupiao/Public/Admin/movieDetail.css">
+</head>
+<body>
+<div class="simple-info">
+    <div class="haibao">
+        <img src="/huigoupiao/Public/AllPic/haibao/thwj.png" alt="">
+    </div>
+    <div class="main-info">
+        <div class="title">
+            <p class="chinaese-title"></p>
+            <p class="english-title"></p>
+        </div>
+        <div class="time">
+            <p class="type mb10"></p>
+            <p class="all-time mb10"></p>
+            <p class="begin-time mb10"></p>
+        </div>
+        <div class="edit">
+            <button class="btn btn-danger btn-block look w140" >想看</button>
+
+        </div>
+    </div>
+
+</div>
+<div class="container" id="app">
+    <div class="main-content-container clearfix">
+        <div class="main-content">
+            <div class="tab-container">
+                <div class="tab-title-container clearfix">
+                    <div class="tab-title " data-act="tab-desc-click"><a href="#story">介绍</a></div>
+                    <div class="tab-title " data-act="tab-celebrity-click"><a href="#person">演职人员</a></div>
+                    <div class="tab-title " data-act="tab-img-click"><a href="#imgs">图集</a></div>
+                </div>
+                <div class="tab-content-container">
+                    <div class="tab-desc tab-content active" data-val="{tabtype:'desc'}">
+
+                        <div class="module" id="story">
+                            <div class="mod-title">
+                                <h3>剧情简介</h3>
+                            </div>
+                            <div class="mod-content">
+                                <span class="dra"></span>
+                            </div>
+                        </div>
+
+
+                        <div class="module" id="person">
+                            <div class="mod-title">
+                                <h3>演职人员</h3>
+                            </div>
+                            <div class="mod-content">
+                                <div class="celebrity-container clearfix">
+
+                                    <div class="celebrity-group">
+                                        <div class="celebrity-type">
+                                            导演:
+                                        </div>
+                                        <div class="celebrity-list clearfix director">
+
+
+
+
+
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="celebrity-group clearfix">
+                                        <div class="celebrity-type">
+                                            演员:
+                                        </div>
+                                        <div class="celebrity-list clearfix actior">
+
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+                        <div class="module"  id="imgs">
+                            <div class="mod-title">
+                                <h3>图集</h3>
+                            </div>
+                            <div class="mod-content">
+                                <div class="album clearfix" data-act="movie-img-click">
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/huigoupiao/Public/jquery-3.3.1.js"></script>
+<script src="/huigoupiao/Public/bootstrap-3.3.7/dist/js/bootstrap.js"></script>
+<script src="/huigoupiao/Public/common.js"></script>
+<script src="/huigoupiao/Public/Admin/movieDetail.js"></script>
+</body>
+</html>
